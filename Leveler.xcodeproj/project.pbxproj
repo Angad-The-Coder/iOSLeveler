@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		3F0FC2C82ADF09FD002203CE /* TestApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FC2C72ADF09FD002203CE /* TestApp.swift */; };
+		3F0FC2C82ADF09FD002203CE /* LevelerApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FC2C72ADF09FD002203CE /* LevelerApp.swift */; };
 		3F0FC2CC2ADF0A00002203CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0FC2CB2ADF0A00002203CE /* Assets.xcassets */; };
 		3F0FC2CF2ADF0A00002203CE /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3F0FC2CE2ADF0A00002203CE /* Preview Assets.xcassets */; };
 		3F0FC2D62ADF0B71002203CE /* BubbleLevel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F0FC2D52ADF0B71002203CE /* BubbleLevel.swift */; };
@@ -18,8 +18,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		3F0FC2C42ADF09FC002203CE /* Test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Test.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		3F0FC2C72ADF09FD002203CE /* TestApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestApp.swift; sourceTree = "<group>"; };
+		3F0FC2C42ADF09FC002203CE /* Leveler.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Leveler.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F0FC2C72ADF09FD002203CE /* LevelerApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LevelerApp.swift; sourceTree = "<group>"; };
 		3F0FC2CB2ADF0A00002203CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3F0FC2CE2ADF0A00002203CE /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		3F0FC2D52ADF0B71002203CE /* BubbleLevel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = BubbleLevel.swift; path = "../../../Downloads/Bubble Level.swiftpm/App/BubbleLevel.swift"; sourceTree = "<group>"; };
@@ -43,7 +43,7 @@
 		3F0FC2BB2ADF09FC002203CE = {
 			isa = PBXGroup;
 			children = (
-				3F0FC2C62ADF09FD002203CE /* Test */,
+				3F0FC2C62ADF09FD002203CE /* Leveler */,
 				3F0FC2C52ADF09FD002203CE /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,16 +51,16 @@
 		3F0FC2C52ADF09FD002203CE /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				3F0FC2C42ADF09FC002203CE /* Test.app */,
+				3F0FC2C42ADF09FC002203CE /* Leveler.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		3F0FC2C62ADF09FD002203CE /* Test */ = {
+		3F0FC2C62ADF09FD002203CE /* Leveler */ = {
 			isa = PBXGroup;
 			children = (
 				3F0FC2D52ADF0B71002203CE /* BubbleLevel.swift */,
-				3F0FC2C72ADF09FD002203CE /* TestApp.swift */,
+				3F0FC2C72ADF09FD002203CE /* LevelerApp.swift */,
 				3F0FC2D72ADF0B95002203CE /* DoubleExtension.swift */,
 				3F0FC2D92ADF0C16002203CE /* LevelView.swift */,
 				3F0FC2DB2ADF0C1A002203CE /* MotionDetector.swift */,
@@ -68,7 +68,7 @@
 				3F0FC2CB2ADF0A00002203CE /* Assets.xcassets */,
 				3F0FC2CD2ADF0A00002203CE /* Preview Content */,
 			);
-			path = Test;
+			path = Leveler;
 			sourceTree = "<group>";
 		};
 		3F0FC2CD2ADF0A00002203CE /* Preview Content */ = {
@@ -82,9 +82,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		3F0FC2C32ADF09FC002203CE /* Test */ = {
+		3F0FC2C32ADF09FC002203CE /* Leveler */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 3F0FC2D22ADF0A00002203CE /* Build configuration list for PBXNativeTarget "Test" */;
+			buildConfigurationList = 3F0FC2D22ADF0A00002203CE /* Build configuration list for PBXNativeTarget "Leveler" */;
 			buildPhases = (
 				3F0FC2C02ADF09FC002203CE /* Sources */,
 				3F0FC2C12ADF09FC002203CE /* Frameworks */,
@@ -94,9 +94,9 @@
 			);
 			dependencies = (
 			);
-			name = Test;
+			name = Leveler;
 			productName = Test;
-			productReference = 3F0FC2C42ADF09FC002203CE /* Test.app */;
+			productReference = 3F0FC2C42ADF09FC002203CE /* Leveler.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -114,7 +114,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 3F0FC2BF2ADF09FC002203CE /* Build configuration list for PBXProject "Test" */;
+			buildConfigurationList = 3F0FC2BF2ADF09FC002203CE /* Build configuration list for PBXProject "Leveler" */;
 			compatibilityVersion = "Xcode 13.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -127,7 +127,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				3F0FC2C32ADF09FC002203CE /* Test */,
+				3F0FC2C32ADF09FC002203CE /* Leveler */,
 			);
 		};
 /* End PBXProject section */
@@ -151,7 +151,7 @@
 			files = (
 				3F0FC2D82ADF0B9D002203CE /* DoubleExtension.swift in Sources */,
 				3F0FC2DE2ADF0C1E002203CE /* OrientationDataView.swift in Sources */,
-				3F0FC2C82ADF09FD002203CE /* TestApp.swift in Sources */,
+				3F0FC2C82ADF09FD002203CE /* LevelerApp.swift in Sources */,
 				3F0FC2D62ADF0B71002203CE /* BubbleLevel.swift in Sources */,
 				3F0FC2DA2ADF0C16002203CE /* LevelView.swift in Sources */,
 				3F0FC2DC2ADF0C1A002203CE /* MotionDetector.swift in Sources */,
@@ -283,6 +283,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Test/Preview Content\"";
+				DEVELOPMENT_TEAM = 34YA86CAWW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -311,6 +312,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"Test/Preview Content\"";
+				DEVELOPMENT_TEAM = 34YA86CAWW;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -334,7 +336,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		3F0FC2BF2ADF09FC002203CE /* Build configuration list for PBXProject "Test" */ = {
+		3F0FC2BF2ADF09FC002203CE /* Build configuration list for PBXProject "Leveler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F0FC2D02ADF0A00002203CE /* Debug */,
@@ -343,7 +345,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		3F0FC2D22ADF0A00002203CE /* Build configuration list for PBXNativeTarget "Test" */ = {
+		3F0FC2D22ADF0A00002203CE /* Build configuration list for PBXNativeTarget "Leveler" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				3F0FC2D32ADF0A00002203CE /* Debug */,
